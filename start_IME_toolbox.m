@@ -108,7 +108,7 @@ print('-djpeg','-r300','outputs/Marquesas_insert.jpg')
 
 
 
-%% -------------- Reproduce Fig. S3a (IME and REF regions) -------------- %%
+%% -------------- Reproduce Extended Data Fig. 1 (IME and REF regions) -------------- %%
 
 region_lon=[172.5 192]; region_lat=[-25 -10]; region_month=8;
 load('inputs/Chl_climatology.mat','Chl')
@@ -187,7 +187,7 @@ end
 
 
 
-%% -------------- Calculate a few statistics from table 1 -------------- %%
+%% -------------- Calculate a few statistics from Table 1 -------------- %%
 
 load('outputs/IME_climato.mat','islands_climato')
 Chl_increase_nearby=(islands_climato.Chl_max-islands_climato.Chl_REF)./islands_climato.Chl_REF;
