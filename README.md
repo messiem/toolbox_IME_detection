@@ -1,5 +1,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6476514.svg)](https://doi.org/10.5281/zenodo.6476514)
 
+**IMPORTANT NOTE:**  
+When setting up the toolbox, I was not aware of the Git LFS limitation on bandwidth. As a consequence, the quota gets sometimes reached which would cause the download of LFS objets to fail (*.mat files). If this happens, please download them directly from the Zenodo release at https://doi.org/10.5281/zenodo.6476514 ([direct link to zip file](https://zenodo.org/record/6494328/files/toolbox_IME_detection_mat_files.zip?download=1)) or contact me.
+
 # Toolbox IME detection #
 
 This toolbox contains the programs used to detect Island Mass Effects (IMEs) from a chlorophyll map and an island database.   
